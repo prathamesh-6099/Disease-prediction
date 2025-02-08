@@ -8,7 +8,7 @@ Created on Sat Feb  8 23:27:04 2025
 import numpy as np
 import pickle
 import streamlit as st
-loaded_model = pickle.load(open("https://github.com/prathamesh-6099/Disease-prediction/blob/main/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # creating a function for Prediction
 
